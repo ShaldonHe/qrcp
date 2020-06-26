@@ -3,7 +3,7 @@ package pages
 // Upload page
 var Upload = `
 <!doctype html>
-<html lang="en">
+<html lang="ch">
 
 <head>
     <meta charset="utf-8">
@@ -139,12 +139,12 @@ var Upload = `
         </div>
         <div class="row">
             <form id="upload-form">
-                <h3>Send files or text</h3>
+                <h3>发送文件或文字</h3>
                 <div class="form-group">
                     <label for="files">
                         Files to transfer
                     </label>
-                    <input class="form-control-file" type="file" id="files" name="files" multiple>
+                    <input class="form-control-file" type="file" id="files" name="files" multiple="true">
                 </div>
                 <div class="form-group form-check">
                     <input type="checkbox" class="form-check-input" id="check-send-text">
